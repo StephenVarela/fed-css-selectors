@@ -1,2 +1,60 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-family: 'Metal Mania', cursive, Times, serif;
+}
+
+h2{
+  font-family: 'Metal Mania', cursive, Times, serif;
+}
+
+
+header{
+  border-bottom: 5px solid black;
+}
+
+.class-list{
+  list-style-type: square;
+}
+
+.item{
+  border: 1px solid blue;
+}
+
+.even{
+  background-color: grey;
+}
+
+.odd{
+  background-color: black;
+  color: white;
+}
+
+#item1{
+  font-size: 30px;
+}
+#item2{
+  text-align: right;
+}
+
+#advanced-selectors > ol > li > p{
+  padding: 10px;
+  background-color: grey;
+}
+
+#advanced-selectors ul>li:nth-child(2n-1){
+  background-color: green;
+}
+
+[title~="Bitmaker"]:hover{
+  text-decoration: none;
+}
+
+#advanced-selectors ul>li:hover{
+  background-color: yellow;
+}
