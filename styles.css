@@ -37,11 +37,14 @@ header{
   text-align: right;
 }
 
-#advanced-selectors > ol > li:nth-child(2n-1) > p{
+#advanced-selectors > ol > li > p{
   padding: 10px;
-  background-color: green;
+  background-color: grey;
 }
 
+#advanced-selectors > ol > li:nth-child(2n-1) > p{
+  background-color: green;
+}
 
 [title~="Bitmaker"]:hover{
   text-decoration: none;
