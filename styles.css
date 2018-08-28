@@ -5,14 +5,9 @@ html{
   font-family: 'Times New Roman', Times, serif;
 }
 
-h1{
+h1, h2{
   font-family: 'Metal Mania', cursive, Times, serif;
 }
-
-h2{
-  font-family: 'Metal Mania', cursive, Times, serif;
-}
-
 
 header{
   border-bottom: 5px solid black;
